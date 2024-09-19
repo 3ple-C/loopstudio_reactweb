@@ -1,8 +1,13 @@
-# React + Vite
+# Loopstudio React Web Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a landing page built with react following the react course which I'm currently taking.
+This is my first main project completed with react and built properly with react features, some of them like:
 
-Currently, two official plugins are available:
+## using the power of props to the best of my knowledge
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## a little bit of conditional rendering
+
+## and then finally state management.
+
+It was really fun while it lasted.
+Moving on the next level in react.
