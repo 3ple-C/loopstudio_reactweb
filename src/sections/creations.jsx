@@ -25,19 +25,18 @@ import {
 } from '../lib'
 
 const images = [
-    {key:'img', src: earth, src2: earth2, alt: 'item', text: 'Deep Earth' },
-    {key:'img', src: nightArcade, src2: nightArcade2, alt: 'item', text: 'Night Arcade' },
-    {key:'img', src: pocket, src2: pocket2, alt: 'item', text: 'Pocket' },
-    {key:'img', src: soccer, src2: soccer2, alt: 'item', text: 'Soccer' },
-    {key:'img', src: curiosity, src2: curiosity2, alt: 'item', text: 'Curiosity' },
-    {key:'img', src: fisheye, src2: fisheye2, alt: 'item', text: 'Fisheye' },
-    {key:'img', src: above, src2: above2, alt: 'item', text: 'Above' },
-    {key:'img', src: grid, src2: grid2, alt: 'item', text: 'Grid' }
+    { key: 'img', src: earth, src2: earth2, alt: 'item', text: 'Deep Earth' },
+    { key: 'img', src: nightArcade, src2: nightArcade2, alt: 'item', text: 'Night Arcade' },
+    { key: 'img', src: pocket, src2: pocket2, alt: 'item', text: 'Pocket' },
+    { key: 'img', src: soccer, src2: soccer2, alt: 'item', text: 'Soccer' },
+    { key: 'img', src: curiosity, src2: curiosity2, alt: 'item', text: 'Curiosity' },
+    { key: 'img', src: fisheye, src2: fisheye2, alt: 'item', text: 'Fisheye' },
+    { key: 'img', src: above, src2: above2, alt: 'item', text: 'Above' },
+    { key: 'img', src: grid, src2: grid2, alt: 'item', text: 'Grid' }
 ];
 
 const imageItems = images.map((image, i) =>
-
-    <picture key={image.key+i}
+    <picture key={image.key + i}
         className='relative after:content-[""] after:absolute after:h-full after:w-full after:top-0 after:left-0 after:bg-gradient-to-tr from-[rgba(0,0,0,.2)] to-[rgba(0,0,0,.2)]'
     >
         <source srcSet={image.src2} media="(max-width: 540px)" />
